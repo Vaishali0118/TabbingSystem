@@ -1,0 +1,25 @@
+.tabsouter{
+  width: 1170px;
+  margin: auto;
+}
+.tabsouter ul{
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+}
+.tabsouter ul li button{
+  background-color: aliceblue;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  margin-right: 18px;
+  font-weight: 600;
+  padding: 0.5rem 20px;
+
+}
+.activeButton{
+  background-color: bisque !important;
+  color: rgb(122, 118, 126);
+}
